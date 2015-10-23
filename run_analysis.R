@@ -49,10 +49,11 @@ colnames(dataCore)[563]<-"activity_label"
 # STEP 05
 # From the data set in step 4, creates a second, independent tidy data set 
 # with the average of each variable for each activity and each subject.
-aggdata <-aggregate(dataCore[, 1:561], by=list(subject=dataCore$subject, activity_label=dataCore$activity_label), FUN=mean, na.rm=TRUE)
+dataCore.aggdata <-aggregate(dataCore[, 1:561], by=list(subject=dataCore$subject, activity_label=dataCore$activity_label), FUN=mean, na.rm=TRUE)
 
 # Write file
-write.table(aggdata, file="../average_subject_activity.txt", row.names=FALSE)
+write.table(dataCore.aggdata, file="../average_subject_activity.txt", row.names=FALSE)
 
 # Delete temporal objects
 rm(temp)
+rm(activityLabels)
