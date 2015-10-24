@@ -17,29 +17,25 @@ Object **dataCore.aggdata** (and *UCI HAR Dataset/average_subject_activity.txt* 
 ## How tu run.
 
 1. Donwload and unzip [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-2. Change the **RStudio workspace to UCI HAR Dataset folder**. Use menu Session->Set working directory or edit run_analysis.R and modify the first line:
-	'''
-	setwd("path_to/UCI HAR Dataset")
-	'''
+2. Change the **RStudio workspace to UCI HAR Dataset folder**. Use menu Session->Set working directory or edit `run_analysis.R` and modify the first line: `setwd("path_to/UCI HAR Dataset")`
+	
 3. Run the script.
 
 ## Tecnical data:
 
-'''
-- RStudio Version 0.98.1102
-- R.Version()
-			$platform "i686-pc-linux-gnu"
-			$arch "i686"
-			$os "linux-gnu"
-			$system "i686, linux-gnu"
-			$status ""
-			$major "3"
-			$minor "0.2"
-			$year "2013"
-			$month "09"
-			$day "25"
-			$`svn rev` "63987"
-			$language "R"
-			$version.string "R version 3.0.2 (2013-09-25)"
-			$nickname "Frisbee Sailing"
-'''
+* RStudio Version 0.98.1102
+* R.Version()
+	* $platform "i686-pc-linux-gnu"
+	* $arch "i686"
+	* $os "linux-gnu"
+	* $system "i686, linux-gnu"
+	* $status ""
+	* $major "3"
+	* $minor "0.2"
+	* $year "2013"
+	* $month "09"
+	* $day "25"
+	* $'svn rev' "63987"
+	* $language "R"
+	* $version.string "R version 3.0.2 (2013-09-25)"
+	* $nickname "Frisbee Sailing"
