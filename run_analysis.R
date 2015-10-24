@@ -1,5 +1,3 @@
-setwd("D:/viferonza/rStudio/gettingAndCleaningData/project/UCI HAR Dataset")
-
 # Reads the main files and load the mesurements into a data.frame.
 loadDataFromFiles <- function(file, subjects, activities, features="features.txt") {
     # Read data from measurements file
